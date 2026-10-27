@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UP CURSOR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Inter:wght@400&family=Montserrat:wght@700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <a href="#home" class="navbar__brand">
+      <img src="assets/images/logo.png" alt="UP CURSOR" class="navbar__logo" />
+    </a>
+    <nav class="navbar__links">
+      <a href="#home">Home</a>
+      <a href="#events">Events</a>
+      <a href="#news">News</a>
+      <a href="#sexies">Sexies</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero__bg"></div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1 class="hero__title">
+          <span class="hero__line">We are</span>
+          <span class="hero__typing" id="typing-text"></span><span class="hero__cursor" aria-hidden="true">|</span>
+        </h1>
+        <p class="hero__subtext">
+          We are a non-sectarian, non-profit, socio-academic organization composed of people who are passionate about computer science.
+        </p>
+      </div>
+      <button class="hero__scroll-btn" id="scroll-down-btn" type="button" aria-label="Scroll to next section">
+        <img src="assets/images/logo-icon.png" alt="" class="hero__scroll-icon" aria-hidden="true" />
+      </button>
+    </section>
+  </main>
+
+  <footer class="site-footer"></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
